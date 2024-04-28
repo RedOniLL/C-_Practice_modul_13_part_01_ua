@@ -21,8 +21,8 @@
             };
             var numbersList = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-            int c = int.Parse(Console.ReadLine());
-            switch (c) { 
+            int choice = int.Parse(Console.ReadLine());
+            switch (choice) { 
                 case 0:
                     var allNumbers = numbersList.ToList();
                     var evenNumbers = numbersList.Where(num => num % 2 == 0).ToList();
