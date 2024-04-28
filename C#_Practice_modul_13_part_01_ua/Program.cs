@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            List<Student> studentsList = new List<Student>
+            var studentsList = new List<Student>
             {
             new Student { FirstName = "John", LastName = "Doe", Age = 20, SchoolName = "MIT" },
             new Student { FirstName = "Jane", LastName = "Smith", Age = 22, SchoolName = "Oxford" },
@@ -14,7 +14,7 @@
             new Student { FirstName = "Bella", LastName = "Turner", Age = 23, SchoolName = "Cambridge"}
             };
 
-            List<string> citiesList = new List<string>
+            var citiesList = new List<string>
             {
                 "Londonm", "Paris", "ANew York", "Tokyo", "Los Angeles",
                 "Sydney", "Moscow", "Berlinm", "NeToronto", "NRomek"
